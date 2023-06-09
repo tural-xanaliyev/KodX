@@ -134,7 +134,7 @@ header>p {
 }
 
 
-header .button-box{
+header .button-box {
     margin-bottom: 130px;
 }
 
@@ -163,12 +163,122 @@ header .button-box>button:last-child:hover {
     color: white;
     border-color: #C5CEE0;
 }
-.bacground-img>img{
+
+.bacground-img>img {
     max-width: 768px;
 }
+
 /* ! End Header */
 
-
-@media screen and (max-width:360px) {
-    
+/* ! Main Header */
+.main-header {
+    background-color: #FFF2F2;
+    padding-left: 190px;
+    padding-right: 240px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -140px;
 }
+
+.main-header>p {
+    width: 800px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+    color: #222B45;
+    margin-left: -100px;
+}
+
+.main-header>img:first-child {
+    margin-top: 270px;
+    margin-left: 100px;
+}
+
+.main-header>img:last-child {
+    margin-top: 270px;
+}
+
+/* ! End Main Header */
+
+/* ! Benefits */
+.benifest-container {
+    padding: 112px;
+}
+
+.benefist-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefist-top>div {
+    width: 400px;
+}
+
+.benefist-top .top-left>span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0095FF;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.benefist-top .top-left>h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E3A59;
+    margin-bottom: 24px;
+}
+
+.benefist-top .top-left>p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8F9BB3;
+}
+
+/* ! benefist-bottom */
+.benefist-bottom {
+    margin-top: 170px;
+}
+
+.benefist-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 96px 32px;
+}
+
+.benefist-box {
+    text-align: center;
+    padding: 10px 82px;
+}
+
+.benefist-box>i {
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #FF3D71;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.benefist-box>h4 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #2E3A59;
+    margin-bottom: 16px;
+}
+
+.benefist-box>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2E3A59;
+}
+
+@media screen and (max-width:360px) {}
