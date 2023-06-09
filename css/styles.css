@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --black-color-text: #2E3A59;
+}
+
+.contianer {
+    width: 100%;
+    height: 100vh;
+}
+
+/* ! Nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 112px 0px 112px;
+}
+
+nav>div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left {
+    color: var(--black-color-text);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.nav-left>img {
+    margin-right: 16px;
+}
+
+.nav-right>ul {
+    display: flex;
+}
+
+.nav-right>ul>li>a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 48px;
+    color: var(--black-color-text);
+    transition: all ease-in-out 0.3s;
+}
+
+.nav-right>ul a:hover {
+    color: blue;
+}
+
+.button-box>i {
+    font-size: 18px;
+    color: var(--black-color-text);
+    margin-right: 27px;
+}
+
+.button-box>button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+nav .button-box>button {
+    background-color: #FF3D71;
+    color: white;
+}
+
+nav .btn-bg-white {
+    background-color: white !important;
+    color: var(--black-color-text) !important;
+    margin-right: 8px;
+    border: 1px solid #C5CEE0 !important;
+}
+
+nav .button-box>button:nth-child(2):hover {
+    background-color: #FF3D71 !important;
+    color: white !important;
+    border-color: transparent !important;
+}
+
+nav .button-box>button:last-child:hover {
+    background-color: white;
+    color: var(--black-color-text);
+    border-color: #C5CEE0;
+}
+
+/* ! End Nav */
+
+/* ! Header */
+
+header {
+    text-align: center;
+    margin-top: 120px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header>h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: #222B45;
+    margin-bottom: 32px;
+}
+
+header>h1>span {
+    color: #FF3D71;
+}
+
+header>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #8F9BB3;
+    margin-bottom: 56px;
+}
+
+
+header .button-box{
+    margin-bottom: 130px;
+}
+
+header>.button-box>button {
+    padding: 14px 36px;
+    text-transform: uppercase;
+    background-color: #0095FF;
+    color: white;
+}
+
+header>.button-box .btn-bg-white {
+    background-color: white;
+    color: #0095FF;
+    border-color: #0095FF;
+    margin-left: 20px;
+}
+
+header .button-box>button:first-child:hover {
+    background-color: white;
+    color: #0095FF;
+    border-color: transparent;
+}
+
+header .button-box>button:last-child:hover {
+    background-color: #0095FF;
+    color: white;
+    border-color: #C5CEE0;
+}
+.bacground-img>img{
+    max-width: 768px;
+}
+/* ! End Header */
+
+
+@media screen and (max-width:360px) {
+    
+}
